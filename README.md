@@ -36,13 +36,16 @@ enabled: true
 
 ## Usage
 
-The HTML5 sequencer will be appended to pages using the 'sequencer' template (based on the default template from Grav's Antimatter Theme)
+The HTML5 sequencer will be appended to pages using the 'sequencer' template (based on the default template from Grav's Antimatter Theme). Rename your page .md file from 'default.md' to 'sequencer.md'
 
 ## Credits
 
 Based on the excellent html5 sequencer built by Andrew Seigner
+
 [https://github.com/siggy/beatboxer](GitHub)
+
 [http://sig.gy/](Website)
+
 Sounds originally from: [http://808.html909.com]()
 
 ## To Do
