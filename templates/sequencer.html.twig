@@ -1,6 +1,6 @@
 {% extends 'partials/base.html.twig' %}
 {% do assets.addJs('plugin://sequencer/js/sequencer.js', {'priority':102, 'pipeline':false, 'loading':'async', 'group':'bottom'}) %}  
-{% do assets.addCSS('plugin://sequencer/css/sequencer.css', {'group' : 'sequencer'}) %}
+{% do assets.addCss('plugin://sequencer/css/sequencer.css') %}
 {% block content %}
     {{ page.content }}
     {% block sequencer %}

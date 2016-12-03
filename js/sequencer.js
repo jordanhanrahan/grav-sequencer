@@ -1,3 +1,4 @@
+var sound_dir = '/nullseq/user/plugins/sequencer/sounds'
 const BPM = 120;
 const TICKS = 16;
 const INTERVAL = 1 / (4 * BPM / (60 * 1000));
@@ -6,24 +7,24 @@ const MAX_HEX = MAX_BITS / 4;
 
 // sounds originated from http://808.html909.com
 const sounds = [
-  'sounds/bass_drum.wav',
-  'sounds/snare_drum.wav',
-  'sounds/low_tom.wav',
-  'sounds/mid_tom.wav',
+  sound_dir + '/bass_drum.wav',
+  sound_dir + '/snare_drum.wav',
+  sound_dir + '/low_tom.wav',
+  sound_dir + '/mid_tom.wav',
 
-  // 'sounds/hi_tom.wav',
-  // 'sounds/rim_shot.wav',
-  // 'sounds/hand_clap.wav',
-  // 'sounds/cowbell.wav',
-  // 'sounds/cymbal.wav',
-  // 'sounds/o_hi_hat.wav',
-  // 'sounds/cl_hi_hat.wav',
+  // sound_dir + '/hi_tom.wav',
+  // sound_dir + '/rim_shot.wav',
+  // sound_dir + '/hand_clap.wav',
+  // sound_dir + '/cowbell.wav',
+  // sound_dir + '/cymbal.wav',
+  // sound_dir + '/o_hi_hat.wav',
+  // sound_dir + '/cl_hi_hat.wav',
 
-  // 'sounds/low_conga.wav',
-  // 'sounds/mid_conga.wav',
-  // 'sounds/hi_conga.wav',
-  // 'sounds/claves.wav',
-  // 'sounds/maracas.wav',
+  // sound_dir + '/low_conga.wav',
+  // sound_dir + '/mid_conga.wav',
+  // sound_dir + '/hi_conga.wav',
+  // sound_dir + '/claves.wav',
+  // sound_dir + '/maracas.wav',
 ];
 
 const audioCtx = new(window.AudioContext || window.webkitAudioContext)();
