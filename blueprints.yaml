@@ -25,6 +25,10 @@ form:
         0: Disabled
       validate:
         type: bool
+    route:
+      type: text
+      label: Page
+      help: Path to the sequencer page
     text_var:
       type: text
       label: Text Variable
