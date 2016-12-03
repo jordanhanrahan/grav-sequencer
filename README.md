@@ -1,7 +1,5 @@
 # Sequencer Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
-
 The **Sequencer** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Creates a HTML5 drum machine
 
 ## Installation
@@ -38,13 +36,16 @@ enabled: true
 
 ## Usage
 
-**Describe how to use the plugin.**
+The HTML5 sequencer will be appended to pages using the 'sequencer' template (based on the default template from Grav's Antimatter Theme)
 
 ## Credits
 
-**Did you incorporate third-party code? Want to thank somebody?**
+Based on the excellent html5 sequencer built by Andrew Seigner
+[https://github.com/siggy/beatboxer](GitHub)
+[http://sig.gy/](Website)
+Sounds originally from: [http://808.html909.com]()
 
 ## To Do
 
-- [ ] Future plans, if any
+- [ ] Change usage to one based on shortcodes so it can be independent of the template.
 
