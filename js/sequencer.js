@@ -1,4 +1,4 @@
-var sound_dir = '/nullseq/user/plugins/sequencer/sounds'
+var sound_dir = '/../sounds'
 const BPM = 120;
 const TICKS = 16;
 const INTERVAL = 1 / (4 * BPM / (60 * 1000));
