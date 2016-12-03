@@ -1,0 +1,31 @@
+name: Sequencer
+version: 0.1.0
+description: Creates a HTML5 drum machine
+icon: plug
+author:
+  name: Jordan Hanrahan
+  email: info@jhanrahan.com.au
+homepage: https://github.com/jordan-hanrahan/grav-plugin-sequencer
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/jordan-hanrahan/grav-plugin-sequencer/issues
+docs: https://github.com/jordan-hanrahan/grav-plugin-sequencer/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: Text Variable
+      help: Text to add to the top of a page
