@@ -1,9 +1,11 @@
 {% extends 'partials/base.html.twig' %}
-
+{% do assets.addJs('plugin://sequencer/js/sequencer.js', {'priority':102, 'pipeline':false, 'loading':'async', 'group':'bottom'}) %}  
+{% do assets.addCSS('plugin://sequencer/css/sequencer.css', {'group' : 'sequencer'}) %}
 {% block content %}
     {{ page.content }}
     {% block sequencer %}
         <h1>You are using the sequencer template!</h1>
         <h2> Sequencer goes here.</h2>
+        <div id="grid"></div> 
     {% endblock %}
 {% endblock %}
